@@ -126,7 +126,7 @@ def calculate_age():
         for each_year in years:
                 sum_years = sum_years + int(each_year)
                 age_of_all_albums = 2017*len(years) - sum_years
-        print(age_of_all_albums)
+        print('The age of all albums is', age_of_all_albums, 'years.')
 
     menu_return()
 
