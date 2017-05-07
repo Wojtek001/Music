@@ -209,4 +209,5 @@ def main():
         main()
         answer = input('Select a number of choosen action: ')
 
-main()
+if __name__ == '__main__':
+    main()
